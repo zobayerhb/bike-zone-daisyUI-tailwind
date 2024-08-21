@@ -41,7 +41,13 @@
       };
     </script>
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="poppins-font">
     <header class="container mx-auto my-8">
@@ -386,7 +392,7 @@
         </h2>
 
         <!-- client wrapper -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-11">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-11 pt-10">
           <!-- client box 1 -->
           <div class="border-2 rounded-md p-9 text-center">
             <!-- client image -->
@@ -479,8 +485,79 @@
           </div>
         </div>
       </section>
-      
+
+      <!-- faq section start -->
+      <section class="mt-20">
+        <!-- section header -->
+        <h2
+          class="mb-6 text-black font-semibold text-center text-5xl capitaize"
+        >
+          Frequently Asked <span class="text-bg-btn-color">Questions</span>
+        </h2>
+
+        <!-- faq container -->
+        <div class="lg:flex gap-24 justify-between items-center pt-10">
+          <!-- faq image -->
+          <div class="w-5/6 h-[495px]">
+            <img
+              class="w-full h-full"
+              src="./images/others/faq.png"
+              alt="FAQ"
+            />
+          </div>
+
+          <!-- faq text content -->
+          <div class="space-y-3">
+            <div class="collapse collapse-arrow border-2 rounded-md p-5">
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow p-5 border-2 rounded-md">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                How can I tell if my helmet is old and I need a new one?
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow p-5 border-2 rounded-md">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+
+            <div class="collapse collapse-arrow p-5 border-2 rounded-md">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
-    <footer></footer>
+    <footer class="mt-20"></footer>
   </body>
 </html>
