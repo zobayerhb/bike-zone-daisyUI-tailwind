@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bike Zone</title>
-    <!-- tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind and daisyUI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -42,6 +40,8 @@
         },
       };
     </script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="poppins-font">
     <header class="container mx-auto my-8">
@@ -278,75 +278,209 @@
 
       <!-- latest news start -->
       <section class="my-24">
-        <h2 class="mb-6 text-black font-semibold text-center text-5xl capitaize">latest news</h2>
+        <h2
+          class="mb-6 text-black font-semibold text-center text-5xl capitaize"
+        >
+          latest news
+        </h2>
         <!-- box wrapper -->
         <div class="lg:flex gap-5 lg:flex-wrap">
           <!-- news box 1 -->
           <div class="card bg-base-100 w-[405px] shadow-xl border-2 p-5">
             <figure>
-              <img
-                src="./images/others/latest1.png"
-                alt="Shoes"
-              />
+              <img src="./images/others/latest1.png" alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-black text-2xl font-semibold">Ducati XDIAVEL S-73</h2>
-              <p class="font-normal text-[16px] text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Read More</button>
+              <h2 class="card-title text-black text-2xl font-semibold">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="font-normal text-[16px] text-[#6C6C6C]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="lg:text-lg text-white font-bold px-6 py-3 lg:px-12 lg:py-4 bg-bg-btn-color rounded-md transition duration-500 ease-in-out hover:bg-transparent border-2 hover:border-2 hover:border-bg-btn-color hover:text-black"
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
+          <!-- news box 2 -->
           <div class="card bg-base-100 w-[405px] shadow-xl border-2 p-5">
             <figure>
-              <img
-                src="./images/others/latest1.png"
-                alt="Shoes"
-              />
+              <img src="./images/others/latest1.png" alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-black text-2xl font-semibold">Ducati XDIAVEL S-73</h2>
-              <p class="font-normal text-[16px] text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Read More</button>
+              <h2 class="card-title text-black text-2xl font-semibold">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="font-normal text-[16px] text-[#6C6C6C]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="lg:text-lg text-white font-bold px-6 py-3 lg:px-12 lg:py-4 bg-bg-btn-color rounded-md transition duration-500 ease-in-out hover:bg-transparent border-2 hover:border-2 hover:border-bg-btn-color hover:text-black"
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
+          <!-- news box 3 -->
           <div class="card bg-base-100 w-[405px] shadow-xl border-2 p-5">
             <figure>
-              <img
-                src="./images/others/latest1.png"
-                alt="Shoes"
-              />
+              <img src="./images/others/latest1.png" alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-black text-2xl font-semibold">Ducati XDIAVEL S-73</h2>
-              <p class="font-normal text-[16px] text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <h2 class="card-title text-black text-2xl font-semibold">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="font-normal text-[16px] text-[#6C6C6C]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary">Read More</button>
+                <button
+                  class="lg:text-lg text-white font-bold px-6 py-3 lg:px-12 lg:py-4 bg-bg-btn-color rounded-md transition duration-500 ease-in-out hover:bg-transparent border-2 hover:border-2 hover:border-bg-btn-color hover:text-black"
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
+          <!-- news box 4 -->
           <div class="card bg-base-100 w-[405px] shadow-xl border-2 p-5">
             <figure>
-              <img
-                src="./images/others/latest1.png"
-                alt="Shoes"
-              />
+              <img src="./images/others/latest1.png" alt="Shoes" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-black text-2xl font-semibold">Ducati XDIAVEL S-73</h2>
-              <p class="font-normal text-[16px] text-[#6C6C6C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Read More</button>
+              <h2 class="card-title text-black text-2xl font-semibold">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="font-normal text-[16px] text-[#6C6C6C]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="lg:text-lg text-white font-bold px-6 py-3 lg:px-12 lg:py-4 bg-bg-btn-color rounded-md transition duration-500 ease-in-out hover:bg-transparent border-2 hover:border-2 hover:border-bg-btn-color hover:text-black"
+                >
+                  Read More
+                </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- client review start-->
+      <section>
+        <!-- section header -->
+        <h2
+          class="mb-6 text-black font-semibold text-center text-5xl capitaize"
+        >
+          Happy <span class="text-bg-btn-color">Clients says</span>
+        </h2>
+
+        <!-- client wrapper -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-11">
+          <!-- client box 1 -->
+          <div class="border-2 rounded-md p-9 text-center">
+            <!-- client image -->
+            <div class="w-[150px] h-[150px] rounded-full mx-auto">
+              <img
+                class="w-full h-full"
+                src="./images/others/user-1.png"
+                alt="Clients"
+              />
+            </div>
+            <!-- client content text -->
+            <div class="space-y-4 mt-5">
+              <p
+                class="font-normal text-[#6C6C6C] text-[16px] leading-[26px] tracking-[0.2px] px-5"
+              >
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#23A6F0] font-semibold">Regina Miles</h4>
+              <span class="font-semibold text-[#252B42] mt-4 inline-block"
+                >Banker</span
+              >
+            </div>
+          </div>
+          <!-- client box 2 -->
+          <div class="border-2 rounded-md p-9 text-center">
+            <!-- client image -->
+            <div class="w-[150px] h-[150px] rounded-full mx-auto">
+              <img
+                class="w-full h-full"
+                src="./images/others/user-2.png"
+                alt="Clients"
+              />
+            </div>
+            <!-- client content text -->
+            <div class="space-y-4 mt-5">
+              <p
+                class="font-normal text-[#6C6C6C] text-[16px] leading-[26px] tracking-[0.2px] px-5"
+              >
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#23A6F0] font-semibold">Regina Miles</h4>
+              <span class="font-semibold text-[#252B42] mt-4 inline-block"
+                >Banker</span
+              >
+            </div>
+          </div>
+          <!-- client box 3 -->
+          <div class="border-2 rounded-md p-9 text-center">
+            <!-- client image -->
+            <div class="w-[150px] h-[150px] rounded-full mx-auto">
+              <img
+                class="w-full h-full"
+                src="./images/others/user-3.png"
+                alt="Clients"
+              />
+            </div>
+            <!-- client content text -->
+            <div class="space-y-4 mt-5">
+              <p
+                class="font-normal text-[#6C6C6C] text-[16px] leading-[26px] tracking-[0.2px] px-5"
+              >
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-[#23A6F0] font-semibold">Regina Miles</h4>
+              <span class="font-semibold text-[#252B42] mt-4 inline-block"
+                >Banker</span
+              >
             </div>
           </div>
         </div>
       </section>
       
     </main>
-
     <footer></footer>
   </body>
 </html>
